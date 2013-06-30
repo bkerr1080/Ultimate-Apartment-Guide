@@ -214,6 +214,22 @@ hr {
 
 /** CONTENT */
 
+#maincontent {
+	width: 800px;
+	min-height: 600px;
+	margin: 0px auto;
+}
+
+#maincontent h1 {
+    font-size: 24px;
+    font-family: Tahoma, Geneva, sans-serif, Impact;
+	color: #575A63;
+}
+
+#maincontent p {
+    font-size: 14px;
+}
+
 #content {
 	float: right;
 	width: 550px;
@@ -534,6 +550,7 @@ hr {
 #box3 {
 	float: right;
 	width: 260px;
+    padding-bottom:50px;
 }
 
 #box4 {
@@ -541,10 +558,9 @@ hr {
 }
 
 #three-columns {
-	overflow: hidden;
-	height: 331px;
+	overflow: auto;
+	min-height: 331px;
 	padding: 30px 40px 0px 40px;
-	background: url(images/bg2_01.jpg) no-repeat center top;
 }
 
 ol.style1 {

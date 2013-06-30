@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="3column.master.cs" Inherits="Ultimate_Apartment_Guide._3column" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="default.css" rel="stylesheet" type="text/css" media="all" />
+    <style type="text/css">
+        @import "layout.css";
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+	        <div id="header">
+		        <div id="logo">
+			        <h1><a href="#">BusinessName.com</a></h1>
+		        </div>
+		        <div id="menu">
+			        <ul>
+				        <li class="first"><a href="#" accesskey="1" title="">Home</a></li>
+				        <li><a href="#" accesskey="2" title="">Listings</a></li>
+				        <li><a href="#" accesskey="3" title="">Portfolio</a></li>
+				        <li><a href="#" accesskey="3" title="">About</a></li>
+				        <li><a href="#" accesskey="4" title="">Contact</a></li>
+			        </ul>
+		        </div>
+	        </div>
+	        <div id="page">
+		        <div id="page-bgtop">
+			        <div id="page-bgbtm">
+                        <div id="maincontent">
+                            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+				        <div id="three-columns">
+					        <div id="box1">
+                                <asp:ContentPlaceHolder ID="Side1" runat="server">
+                                </asp:ContentPlaceHolder>
+					        </div>
+					        <div id="box2">
+                                <asp:ContentPlaceHolder ID="Side2" runat="server">
+                                </asp:ContentPlaceHolder>
+					        </div>
+					        <div id="box3">
+                                <asp:ContentPlaceHolder ID="Side3" runat="server">
+                                </asp:ContentPlaceHolder>
+					        </div>
+				        </div>
+			        </div>
+		        </div>
+		        <div id="footer-content">
+			        <div class="bgtop">
+				        <div class="bgbtm">
+					        <div id="two-columns">
+						        <div id="column1">
+							        <h2>The footer</h2>
+							        <p>Nothing here yet.</p>
+						        </div>
+						        <div id="column2">
+							        <h2>About this lady</h2>
+							        <p><img src="images/homepage15.jpg" alt="" width="80" height="80" class="alignleft" />Just a pic of a random lady included with this template. That is all.</p>
+							        <p class="separator">&nbsp;</p>
+							        <p class="link"><a href="#">Read more</a></p>
+						        </div>
+					        </div>
+				        </div>
+			        </div>
+		        </div>
+	        </div>
+        </div>
+        <div id="footer">
+	        <p>Once this goes live you should put your cool copyright info here. All rights reserved.</p>
+        </div>
+    </form>
+</body>
+</html>
