@@ -24,7 +24,7 @@
 			        <ul>
 				        <li class="first"><a href="#" accesskey="1" title="">Home</a></li>
 				        <li><a href="#" accesskey="2" title="">Listings</a></li>
-				        <li><a href="#" accesskey="3" title="">Portfolio</a></li>
+				        <li><a href="#" accesskey="3" title="">Add Listing</a></li>
 				        <li><a href="#" accesskey="3" title="">About</a></li>
 				        <li><a href="#" accesskey="4" title="">Contact</a></li>
 			        </ul>
@@ -37,20 +37,8 @@
                             <asp:ContentPlaceHolder ID="MainContent" runat="server">
                             </asp:ContentPlaceHolder>
                         </div>
-				        <div id="three-columns">
-					        <div id="box1">
-                                <asp:ContentPlaceHolder ID="Side1" runat="server">
-                                </asp:ContentPlaceHolder>
-					        </div>
-					        <div id="box2">
-                                <asp:ContentPlaceHolder ID="Side2" runat="server">
-                                </asp:ContentPlaceHolder>
-					        </div>
-					        <div id="box3">
-                                <asp:ContentPlaceHolder ID="Side3" runat="server">
-                                </asp:ContentPlaceHolder>
-					        </div>
-				        </div>
+                        <asp:ContentPlaceHolder ID="SecondaryContent" runat="server">
+                        </asp:ContentPlaceHolder>
 			        </div>
 		        </div>
 		        <div id="footer-content">

@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="2coltest.aspx" />
     <Content Include="3coltest.aspx" />
+    <Content Include="addlisting.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="default.css" />
     <Content Include="homepage.html" />
@@ -152,6 +153,13 @@
     </Compile>
     <Compile Include="3column.Master.designer.cs">
       <DependentUpon>3column.Master</DependentUpon>
+    </Compile>
+    <Compile Include="addlisting.aspx.cs">
+      <DependentUpon>addlisting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addlisting.aspx.designer.cs">
+      <DependentUpon>addlisting.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
