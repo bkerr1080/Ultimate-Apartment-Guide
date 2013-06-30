@@ -4,3 +4,5 @@
     <h1>Add a Listing</h1>
     <p>This is where you will add a listing! Mainly for testing right now.</p>
 </asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="SecondaryContent" runat="server">
+</asp:Content>
