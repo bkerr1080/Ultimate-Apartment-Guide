@@ -324,7 +324,7 @@ hr {
 	margin: 0px;
 	padding: 36px 0px 0px 0px;
 	text-align: center;
-	text-transform: lowercase;
+	/*text-transform: lowercase;*/
 	font-size: 12px;
 	color: #6E727B;
 }

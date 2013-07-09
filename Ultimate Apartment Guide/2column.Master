@@ -22,7 +22,7 @@
                 </div>
                 <div id="menu">
                     <ul>
-                        <li class="first"><a href="#" accesskey="1" title="">Home</a></li>
+                        <li class="first"><a href="default.aspx" accesskey="1" title="">Home</a></li>
                         <li><a href="#" accesskey="2" title="">Services</a></li>
                         <li><a href="#" accesskey="3" title="">Portfolio</a></li>
                         <li><a href="#" accesskey="3" title="">About</a></li>
@@ -34,16 +34,24 @@
                 <div id="page-bgtop">
                     <div id="page-bgbtm">
                         <div id="content">
-                            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-                            </asp:ContentPlaceHolder>
+                            <div class="box4 box-sytle">
+                                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
                         </div>
                         <div id="sidebar">
-                            <asp:ContentPlaceHolder ID="Side1" runat="server">
-                            </asp:ContentPlaceHolder>
-                            <asp:ContentPlaceHolder ID="Side2" runat="server">
-                            </asp:ContentPlaceHolder>
-                            <asp:ContentPlaceHolder ID="Side3" runat="server">
-                            </asp:ContentPlaceHolder>
+                            <div id="box4">
+                                <div class="box3 box-sytle">
+                                    <asp:ContentPlaceHolder ID="Side1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </div>
+                            <div id="box1">
+                                <div class="box1 box-sytle">
+                                    <asp:ContentPlaceHolder ID="Side2" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -53,18 +61,18 @@
                     <div class="bgbtm">
                         <div id="two-columns">
                             <div id="column1">
-                                <h2>faucibus amet <span>elementum</span></h2>
-                                <p><strong>Consequat sed luctus</strong> id purus laoreet massa ultrices eleifend non vitae dui. Nam elementum augue at gravida in neque vulputate luctus. Duis ultricies eleifend dui sit tempus a consectetur. Pellentesque sit amet lectus eget mauris tincidunt <a href="#">faucibus id sit amet nunc</a>. Sed dui et risus augue quam placerat ligula, vitae rutrum nisl massa vel diam lorem ipsum dolor.</p>
+                                <h2>Awesome footer.</h2>
+                                <p>This is all part of the master page.  We might consider creating a ContentPlaceHolder here so that we may change it.  Just a thought.</p>
                                 <p class="separator">&nbsp;</p>
-                                <p class="link"><a href="#">Lorem ipsum dolor sit amet nullam &#8230;</a></p>
+                                <p class="link"><a href="#">Some Article</a></p>
                             </div>
                             <div id="column2">
-                                <h2>Ultricies sed <span>eleifend</span></h2>
+                                <h2>Awesome Mug shot.  Or not.</h2>
                                 <p>
                                     <img src="images/homepage15.jpg" alt="" width="80" height="80" class="alignleft" /><strong>Lorem et ipsum</strong> purus laoreet et massa ultrices eleifend non et vitae dui. Nam elementum.
                                 </p>
                                 <p class="separator">&nbsp;</p>
-                                <p class="link"><a href="#">Purus lorem ipsum volutpat</a></p>
+                                <p class="link"><a href="#">Some other article</a></p>
                             </div>
                         </div>
                     </div>
@@ -73,7 +81,7 @@
         </div>
 
         <div id="footer">
-            <p>Copyright (c) 2010 BusinessName.com. All rights reserved.</p>
+            <p>Copyright (c) 2013 Ultimate Apartment Guide. All rights reserved.</p>
         </div>
     </form>
 </body>

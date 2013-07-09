@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Ultimate_Apartment_Guide
 {
-    public partial class _2coltest : System.Web.UI.Page
+    public partial class results : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

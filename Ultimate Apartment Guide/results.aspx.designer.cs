@@ -11,7 +11,7 @@ namespace Ultimate_Apartment_Guide
 {
 
 
-    public partial class _2coltest
+    public partial class results
     {
     }
 }
