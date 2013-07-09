@@ -1,0 +1,5 @@
+C:\Users\Bryan\Google Drive\Apartments\Ultimate Apartment Guide website\Ultimate Apartment Guide\Ultimate Apartment Guide\bin\Ultimate Apartment Guide.dll
+C:\Users\Bryan\Google Drive\Apartments\Ultimate Apartment Guide website\Ultimate Apartment Guide\Ultimate Apartment Guide\bin\Ultimate Apartment Guide.pdb
+C:\Users\Bryan\Google Drive\Apartments\Ultimate Apartment Guide website\Ultimate Apartment Guide\Ultimate Apartment Guide\obj\Debug\Ultimate Apartment Guide.csprojResolveAssemblyReference.cache
+C:\Users\Bryan\Google Drive\Apartments\Ultimate Apartment Guide website\Ultimate Apartment Guide\Ultimate Apartment Guide\obj\Debug\Ultimate Apartment Guide.dll
+C:\Users\Bryan\Google Drive\Apartments\Ultimate Apartment Guide website\Ultimate Apartment Guide\Ultimate Apartment Guide\obj\Debug\Ultimate Apartment Guide.pdb
