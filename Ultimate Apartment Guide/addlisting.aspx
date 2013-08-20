@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/3column.Master" AutoEventWireup="true" CodeBehind="addlisting.aspx.cs" Inherits="Ultimate_Apartment_Guide.addlisting" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/1column.Master" AutoEventWireup="true" CodeBehind="addlisting.aspx.cs" Inherits="Ultimate_Apartment_Guide.addlisting" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h1>Add a Listing</h1>

@@ -23,7 +23,7 @@
 		        <div id="menu">
 			        <ul>
 				        <li class="first"><a href="3coltest.aspx" accesskey="1" title="">Home</a></li>
-				        <li><a href="#" accesskey="2" title="">Listings</a></li>
+				        <li><a href="results.aspx" accesskey="2" title="">Listings</a></li>
 				        <li><a href="addlisting.aspx" accesskey="3" title="">Add Listing</a></li>
 				        <li><a href="#" accesskey="3" title="">About</a></li>
 				        <li><a href="#" accesskey="4" title="">Contact</a></li>

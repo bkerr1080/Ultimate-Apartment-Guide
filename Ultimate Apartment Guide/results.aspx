@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/2column.Master" AutoEventWireup="true" CodeBehind="results.aspx.cs" Inherits="Ultimate_Apartment_Guide.results" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/1column.Master" AutoEventWireup="true" CodeBehind="results.aspx.cs" Inherits="Ultimate_Apartment_Guide.results" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 

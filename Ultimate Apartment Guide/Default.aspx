@@ -23,20 +23,23 @@
 		<div id="menu">
 			<ul>
 				<li class="first"><a href="#" accesskey="1" title="">Home</a></li>
-				<li><a href="#" accesskey="2" title="">Services</a></li>
+				<li><a href="addlisting.aspx" accesskey="2" title="">Add Listing</a></li>
 				<li><a href="#" accesskey="3" title="">Portfolio</a></li>
 				<li><a href="#" accesskey="3" title="">About</a></li>
 				<li><a href="#" accesskey="4" title="">Contact</a></li>
+                <li><a href="#" accesskey="5" title="">Something</a></li>
 			</ul>
 		</div>
 	</div>
-	<div id="page">
-		<div id="page-bgtop">
-			<div id="page-bgbtm">
-				<div id="splash">
+	<div id="splash">
 					<p>Aliquam veroeros sed etiam</p>
 					<h2>Lorem ipsum <strong>dolor</strong></h2>
-				</div>
+				</div>	
+            <div id="page">
+		<%--<div id="page-bgtop">--%>
+		
+        <div id="page-bgbtm">
+				
 				<div id="three-columns">
 					<div id="box1">
 						<div class="box1 box-sytle">
@@ -85,7 +88,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		<%--</div>--%>
 		<div id="footer-content">
 			<div class="bgtop">
 				<div class="bgbtm">
