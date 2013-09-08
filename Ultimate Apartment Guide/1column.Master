@@ -10,11 +10,16 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
         
-        </asp:ContentPlaceHolder>
-    </div>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="SecondaryContent" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
     </form>
 </body>
 </html>
